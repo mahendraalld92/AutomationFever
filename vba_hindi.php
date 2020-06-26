@@ -1,16 +1,8 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE HTML>
 <html>
-
-<!-- Mirrored from demo.w3layouts.com/demos_new/template_demo/02-05-2020/my_play-demo_Free/236948122/web/single.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 Jun 2020 09:29:01 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
-<title>My Play a Entertainment Category Flat Bootstrap Responsive Website Template | single :: w3layouts</title>
+<title>My Play a Entertainment Category Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="My Play Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
@@ -81,7 +73,7 @@ if(typeof _bsa !== 'undefined' && _bsa) {
 
 <meta name="robots" content="noindex">
 <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+	<nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -90,7 +82,7 @@ if(typeof _bsa !== 'undefined' && _bsa) {
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html"><h1><img src="images/logo.png" alt="" /></h1></a>
+          <a class="navbar-brand" href="index.php"><h1><img src="images/logo.png" alt="" /></h1></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
 			<div class="top-search">
@@ -98,7 +90,7 @@ if(typeof _bsa !== 'undefined' && _bsa) {
 					<input type="text" class="form-control" placeholder="Search...">
 					<input type="submit" value=" ">
 				</form>
-			</div>  
+			</div>
 			<div class="header-top-right">
 				<div class="signin">
 					<a href="#small-dialog2" class="play-icon popup-with-zoom-anim">Sign Up</a>
@@ -167,14 +159,14 @@ if(typeof _bsa !== 'undefined' && _bsa) {
 											</div>
 										</div>
 										<div class="signup">
-											<form action="https://demo.w3layouts.com/demos_new/template_demo/02-05-2020/my_play-demo_Free/236948122/web/upload.html">
+											<form action="https://demo.w3layouts.com/demos_new/template_demo/02-05-2020/my_play-demo_Free/236948122/web/upload.php">
 												<input type="text" class="email" placeholder="Email" required="required" pattern="([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?" title="Enter a valid email"/>
 												<input type="password" placeholder="Password" required="required" pattern=".{6,}" title="Minimum 6 characters required" autocomplete="off" />
 												<input type="submit"  value="Sign In"/>
 											</form>
 										</div>
 										<div class="clearfix"> </div>
-									</div>	
+									</div>		
 									<div id="small-dialog4" class="mfp-hide">
 										<h3>Feedback</h3> 
 										<div class="feedback-grids">
@@ -276,6 +268,7 @@ if(typeof _bsa !== 'undefined' && _bsa) {
 		<div class="clearfix"> </div>
       </div>
     </nav>
+	
         <div class="col-sm-3 col-md-2 sidebar">
 			<div class="top-navigation">
 				<div class="t-menu">MENU</div>
@@ -286,14 +279,14 @@ if(typeof _bsa !== 'undefined' && _bsa) {
 			</div>
 				<div class="drop-navigation drop-navigation">
 				  <ul class="nav nav-sidebar">
-					<li><a href="index.html" class="home-icon"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
-					<li><a href="shows.html" class="user-icon"><span class="glyphicon glyphicon-home glyphicon-blackboard" aria-hidden="true"></span>TV Shows</a></li>
-					<li><a href="history.html" class="sub-icon"><span class="glyphicon glyphicon-home glyphicon-hourglass" aria-hidden="true"></span>History</a></li>
+					<li class="active"><a href="index.php" class="home-icon"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
+					<li><a href="shows.php" class="user-icon"><span class="glyphicon glyphicon-home glyphicon-blackboard" aria-hidden="true"></span>TV Shows</a></li>
+					<li><a href="history.php" class="sub-icon"><span class="glyphicon glyphicon-home glyphicon-hourglass" aria-hidden="true"></span>History</a></li>
 					<li><a href="#" class="menu1"><span class="glyphicon glyphicon-film" aria-hidden="true"></span>Movies<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a></li>
 						<ul class="cl-effect-2">
-							<li><a href="movies.html">English</a></li>                                             
-							<li><a href="movies.html">Chinese</a></li>
-							<li><a href="movies.html">Hindi</a></li> 
+							<li><a href="movies.php">English</a></li>                                             
+							<li><a href="movies.php">Chinese</a></li>
+							<li><a href="movies.php">Hindi</a></li> 
 						</ul>
 						<!-- script-for-menu -->
 						<script>
@@ -305,10 +298,10 @@ if(typeof _bsa !== 'undefined' && _bsa) {
 						</script>
 					<li><a href="#" class="menu"><span class="glyphicon glyphicon-film glyphicon-king" aria-hidden="true"></span>Sports<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a></li>
 						<ul class="cl-effect-1">
-							<li><a href="sports.html">Football</a></li>                                             
-							<li><a href="sports.html">Cricket</a></li>
-							<li><a href="sports.html">Tennis</a></li> 
-							<li><a href="sports.html">Shattil</a></li>  
+							<li><a href="sports.php">Football</a></li>                                             
+							<li><a href="sports.php">Cricket</a></li>
+							<li><a href="sports.php">Tennis</a></li> 
+							<li><a href="sports.php">Shattil</a></li>  
 						</ul>
 						<!-- script-for-menu -->
 						<script>
@@ -318,8 +311,8 @@ if(typeof _bsa !== 'undefined' && _bsa) {
 							});
 							});
 						</script>
-					<li><a href="movies.html" class="song-icon"><span class="glyphicon glyphicon-music" aria-hidden="true"></span>Songs</a></li>
-					<li><a href="news.html" class="news-icon"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>News</a></li>
+					<li><a href="movies.php" class="song-icon"><span class="glyphicon glyphicon-music" aria-hidden="true"></span>Songs</a></li>
+					<li><a href="news.php" class="news-icon"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>News</a></li>
 				  </ul>
 				  <!-- script-for-menu -->
 						<script>
@@ -345,312 +338,162 @@ if(typeof _bsa !== 'undefined' && _bsa) {
 				</div>
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-			<div class="show-top-grids">
-				<div class="col-sm-8 single-left">
-					<div class="song">
-						<div class="video-grid">
-							<iframe src="https://www.youtube.com/embed/oYiT-vLjhC4" allowfullscreen></iframe>
+			<div class="main-grids" style="margin-top:-40px">
+				<div class="recommended">
+					<div class="recommended-grids">
+						<div class="recommended-info">
+							<h3>VBA in Hindi </h3>
 						</div>
-						<div class="song-info">
-							<h3>Etiam molestie nisl eget consequat pharetra</h3>	
-						</div>
-					</div>
-					<div class="clearfix"> </div>
-					<div class="published">
-						<script src="jquery.min.html"></script>
-							<script>
-								$(document).ready(function () {
-									size_li = $("#myList li").size();
-									x=1;
-									$('#myList li:lt('+x+')').show();
-									$('#loadMore').click(function () {
-										x= (x+1 <= size_li) ? x+1 : size_li;
-										$('#myList li:lt('+x+')').show();
-									});
-									$('#showLess').click(function () {
-										x=(x-1<0) ? 1 : x-1;
-										$('#myList li').not(':lt('+x+')').hide();
-									});
-								});
-							</script>
-							<div class="load_more">	
-								<ul id="myList">
-									<li>
-										<h4>Published on 15 June 2015</h4>
-										<p>Nullam fringilla sagittis tortor ut rhoncus. Nam vel ultricies erat, vel sodales leo. Maecenas pellentesque, est suscipit laoreet tincidunt, ipsum tortor vestibulum leo, ac dignissim diam velit id tellus. Morbi luctus velit quis semper egestas. Nam condimentum sem eget ex iaculis bibendum. Nam tortor felis, commodo faucibus sollicitudin ac, luctus a turpis. Donec congue pretium nisl, sed fringilla tellus tempus in.</p>
-									</li>
-									<li>
-										<p>Nullam fringilla sagittis tortor ut rhoncus. Nam vel ultricies erat, vel sodales leo. Maecenas pellentesque, est suscipit laoreet tincidunt, ipsum tortor vestibulum leo, ac dignissim diam velit id tellus. Morbi luctus velit quis semper egestas. Nam condimentum sem eget ex iaculis bibendum. Nam tortor felis, commodo faucibus sollicitudin ac, luctus a turpis. Donec congue pretium nisl, sed fringilla tellus tempus in.</p>
-										<p>Nullam fringilla sagittis tortor ut rhoncus. Nam vel ultricies erat, vel sodales leo. Maecenas pellentesque, est suscipit laoreet tincidunt, ipsum tortor vestibulum leo, ac dignissim diam velit id tellus. Morbi luctus velit quis semper egestas. Nam condimentum sem eget ex iaculis bibendum. Nam tortor felis, commodo faucibus sollicitudin ac, luctus a turpis. Donec congue pretium nisl, sed fringilla tellus tempus in.</p>
-										<div class="load-grids">
-											<div class="load-grid">
-												<p>Category</p>
-											</div>
-											<div class="load-grid">
-												<a href="movies.html">Entertainment</a>
-											</div>
-											<div class="clearfix"> </div>
-										</div>
-									</li>
-								</ul>
+						<div class="col-md-3 resent-grid recommended-grid">
+							<div class="resent-grid-img recommended-grid-img">
+								<a href="preview.php"><img src="images/g.jpg" alt="" /></a>
+								<div class="time small-time">
+									<p>7:30</p>
+								</div>
+								<div class="clck small-clck">
+									<span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+								</div>
 							</div>
-					</div>
-					<div class="all-comments">
-						<div class="all-comments-info">
-							<a href="#">All Comments (8,657)</a>
-							<div class="box">
-								<form>
-								  <div class="row">
-									<div class="col-md-6">
-									  <input type="text" placeholder="Name" required=" ">
-									</div>
-									<div class="col-md-6">
-									  <input type="email" placeholder="Email" required=" ">
-									</div>
-								  </div>
-								  <div class="row">
-									<div class="col-md-12">
-										<textarea placeholder="Add a comment.." required=" "></textarea>
-									</div>
-								  </div>
-								  <input type="submit" value="Comment" style="float:right">
-									<div class="clearfix"> </div>
-								</form>
-							</div>
-							<div class="all-comments-buttons">
+							<div class="resent-grid-info recommended-grid-info video-info-grid">
+								<h5><a href="preview.php" class="title">Varius sit sed viverra nullam viverra nullam interdum metus</a></h5>
 								<ul>
-									<li><a href="#" class="top">Top Comments</a></li>
-									<li><a href="#" class="top newest">Newest First</a></li>
-									<li><a href="#" class="top my-comment">My Comments</a></li>
+									<li><p class="author author-info"><a href="#" class="author">John Maniya</a></p></li>
+									<li class="right-list"><p class="views views-info">2,114,200 views</p></li>
 								</ul>
 							</div>
 						</div>
-						<div class="media-grids">
-							<div class="media">
-								<h5>Tom Brown</h5>
-								<div class="media-left">
-									<a href="#">
-										
-									</a>
+						<div class="col-md-3 resent-grid recommended-grid">
+							<div class="resent-grid-img recommended-grid-img">
+								<a href="preview.php"><img src="images/g1.jpg" alt="" /></a>
+								<div class="time small-time">
+									<p>9:34</p>
 								</div>
-								<div class="media-body">
-									<p>Maecenas ultricies rhoncus tincidunt maecenas imperdiet ipsum id ex pretium hendrerit maecenas imperdiet ipsum id ex pretium hendrerit</p>
-									<span>View all posts by :<a href="#"> Admin </a></span>
+								<div class="clck small-clck">
+									<span class="glyphicon glyphicon-time" aria-hidden="true"></span>
 								</div>
 							</div>
-							<div class="media">
-								<h5>Mark Johnson</h5>
-								<div class="media-left">
-									<a href="#">
-										
-									</a>
-								</div>
-								<div class="media-body">
-									<p>Maecenas ultricies rhoncus tincidunt maecenas imperdiet ipsum id ex pretium hendrerit maecenas imperdiet ipsum id ex pretium hendrerit</p>
-									<span>View all posts by :<a href="#"> Admin </a></span>
-								</div>
-							</div>
-							<div class="media">
-								<h5>Steven Smith</h5>
-								<div class="media-left">
-									<a href="#">
-										
-									</a>
-								</div>
-								<div class="media-body">
-									<p>Maecenas ultricies rhoncus tincidunt maecenas imperdiet ipsum id ex pretium hendrerit maecenas imperdiet ipsum id ex pretium hendrerit</p>
-									<span>View all posts by :<a href="#"> Admin </a></span>
-								</div>
-							</div>
-							<div class="media">
-								<h5>Marry Johne</h5>
-								<div class="media-left">
-									<a href="#">
-										
-									</a>
-								</div>
-								<div class="media-body">
-									<p>Maecenas ultricies rhoncus tincidunt maecenas imperdiet ipsum id ex pretium hendrerit maecenas imperdiet ipsum id ex pretium hendrerit</p>
-									<span>View all posts by :<a href="#"> Admin </a></span>
-								</div>
-							</div>
-							<div class="media">
-								<h5>Mark Johnson</h5>
-								<div class="media-left">
-									<a href="#">
-										
-									</a>
-								</div>
-								<div class="media-body">
-									<p>Maecenas ultricies rhoncus tincidunt maecenas imperdiet ipsum id ex pretium hendrerit maecenas imperdiet ipsum id ex pretium hendrerit</p>
-									<span>View all posts by :<a href="#"> Admin </a></span>
-								</div>
-							</div>
-							<div class="media">
-								<h5>Mark Johnson</h5>
-								<div class="media-left">
-									<a href="#">
-										
-									</a>
-								</div>
-								<div class="media-body">
-									<p>Maecenas ultricies rhoncus tincidunt maecenas imperdiet ipsum id ex pretium hendrerit maecenas imperdiet ipsum id ex pretium hendrerit</p>
-									<span>View all posts by :<a href="#"> Admin </a></span>
-								</div>
-							</div>
-							<div class="media">
-								<h5>Peter Johnson</h5>
-								<div class="media-left">
-									<a href="#">
-										
-									</a>
-								</div>
-								<div class="media-body">
-									<p>Maecenas ultricies rhoncus tincidunt maecenas imperdiet ipsum id ex pretium hendrerit maecenas imperdiet ipsum id ex pretium hendrerit</p>
-									<span>View all posts by :<a href="#"> Admin </a></span>
-								</div>
+							<div class="resent-grid-info recommended-grid-info video-info-grid">
+								<h5><a href="preview.php" class="title">Nullam interdum viverra nullam metus varius sit sed viverra </a></h5>
+								<ul>
+									<li><p class="author author-info"><a href="#" class="author">John Maniya</a></p></li>
+									<li class="right-list"><p class="views views-info">2,114,200 views</p></li>
+								</ul>
 							</div>
 						</div>
+						<div class="col-md-3 resent-grid recommended-grid">
+							<div class="resent-grid-img recommended-grid-img">
+								<a href="preview.php"><img src="images/g2.jpg" alt="" /></a>
+								<div class="time small-time">
+									<p>5:34</p>
+								</div>
+								<div class="clck small-clck">
+									<span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+								</div>
+							</div>
+							<div class="resent-grid-info recommended-grid-info video-info-grid">
+								<h5><a href="preview.php" class="title">Varius sit sed viverra nullam viverra nullam interdum metus</a></h5>
+								<ul>
+									<li><p class="author author-info"><a href="#" class="author">John Maniya</a></p></li>
+									<li class="right-list"><p class="views views-info">2,114,200 views</p></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-3 resent-grid recommended-grid">
+							<div class="resent-grid-img recommended-grid-img">
+								<a href="preview.php"><img src="images/g3.jpg" alt="" /></a>
+								<div class="time small-time">
+									<p>6:55</p>
+								</div>
+								<div class="clck small-clck">
+									<span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+								</div>
+							</div>
+							<div class="resent-grid-info recommended-grid-info video-info-grid">
+								<h5><a href="preview.php" class="title">Nullam interdum metus viverra nullam varius sit sed viverra</a></h5>
+								<ul>
+									<li><p class="author author-info"><a href="#" class="author">John Maniya</a></p></li>
+									<li class="right-list"><p class="views views-info">2,114,200 views</p></li>
+								</ul>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="recommended-grids">
+						<div class="col-md-3 resent-grid recommended-grid">
+							<div class="resent-grid-img recommended-grid-img">
+								<a href="preview.php"><img src="images/we2.jpg" alt=""></a>
+								<div class="time small-time">
+									<p>7:30</p>
+								</div>
+								<div class="clck small-clck">
+									<span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+								</div>
+							</div>
+							<div class="resent-grid-info recommended-grid-info video-info-grid">
+								<h5><a href="preview.php" class="title">Varius sit sed viverra nullam viverra nullam interdum metus</a></h5>
+								<ul>
+									<li><p class="author author-info"><a href="#" class="author">John Maniya</a></p></li>
+									<li class="right-list"><p class="views views-info">2,114,200 views</p></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-3 resent-grid recommended-grid">
+							<div class="resent-grid-img recommended-grid-img">
+								<a href="preview.php"><img src="images/we1.jpg" alt=""></a>
+								<div class="time small-time">
+									<p>9:34</p>
+								</div>
+								<div class="clck small-clck">
+									<span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+								</div>
+							</div>
+							<div class="resent-grid-info recommended-grid-info video-info-grid">
+								<h5><a href="preview.php" class="title">Nullam interdum viverra nullam metus varius sit sed viverra</a></h5>
+								<ul>
+									<li><p class="author author-info"><a href="#" class="author">John Maniya</a></p></li>
+									<li class="right-list"><p class="views views-info">2,114,200 views</p></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-3 resent-grid recommended-grid">
+							<div class="resent-grid-img recommended-grid-img">
+								<a href="preview.php"><img src="images/we4.jpg" alt=""></a>
+								<div class="time small-time">
+									<p>5:34</p>
+								</div>
+								<div class="clck small-clck">
+									<span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+								</div>
+							</div>
+							<div class="resent-grid-info recommended-grid-info video-info-grid">
+								<h5><a href="preview.php" class="title">Varius sit sed viverra nullam viverra nullam interdum metus</a></h5>
+								<ul>
+									<li><p class="author author-info"><a href="#" class="author">John Maniya</a></p></li>
+									<li class="right-list"><p class="views views-info">2,114,200 views</p></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-3 resent-grid recommended-grid">
+							<div class="resent-grid-img recommended-grid-img">
+								<a href="preview.php"><img src="images/we3.jpg" alt=""></a>
+								<div class="time small-time">
+									<p>6:55</p>
+								</div>
+								<div class="clck small-clck">
+									<span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+								</div>
+							</div>
+							<div class="resent-grid-info recommended-grid-info video-info-grid">
+								<h5><a href="preview.php" class="title">Nullam interdum metus viverra nullam varius sit sed viverra</a></h5>
+								<ul>
+									<li><p class="author author-info"><a href="#" class="author">John Maniya</a></p></li>
+									<li class="right-list"><p class="views views-info">2,114,200 views</p></li>
+								</ul>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
 					</div>
 				</div>
-				<div class="col-md-4 single-right">
-					<h3>Up Next</h3>
-					<div class="single-grid-right">
-						<div class="single-right-grids">
-							<div class="col-md-4 single-right-grid-left">
-								<a href="single.html"><img src="images/r1.jpg" alt="" /></a>
-							</div>
-							<div class="col-md-8 single-right-grid-right">
-								<a href="single.html" class="title"> Nullam interdum metus</a>
-								<p class="author"><a href="#" class="author">John Maniya</a></p>
-								<p class="views">2,114,200 views</p>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="single-right-grids">
-							<div class="col-md-4 single-right-grid-left">
-								<a href="single.html"><img src="images/r2.jpg" alt="" /></a>
-							</div>
-							<div class="col-md-8 single-right-grid-right">
-								<a href="single.html" class="title"> Nullam interdum metus</a>
-								<p class="author"><a href="#" class="author">John Maniya</a></p>
-								<p class="views">2,114,200 views </p>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="single-right-grids">
-							<div class="col-md-4 single-right-grid-left">
-								<a href="single.html"><img src="images/r3.jpg" alt="" /></a>
-							</div>
-							<div class="col-md-8 single-right-grid-right">
-								<a href="single.html" class="title"> Nullam interdum metus</a>
-								<p class="author"><a href="#" class="author">John Maniya</a></p>
-								<p class="views">2,114,200 views</p>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="single-right-grids">
-							<div class="col-md-4 single-right-grid-left">
-								<a href="single.html"><img src="images/r4.jpg" alt="" /></a>
-							</div>
-							<div class="col-md-8 single-right-grid-right">
-								<a href="single.html" class="title"> Nullam interdum metus</a>
-								<p class="author"><a href="#" class="author">John Maniya</a></p>
-								<p class="views">2,114,200 views</p>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="single-right-grids">
-							<div class="col-md-4 single-right-grid-left">
-								<a href="single.html"><img src="images/r5.jpg" alt="" /></a>
-							</div>
-							<div class="col-md-8 single-right-grid-right">
-								<a href="single.html" class="title"> Nullam interdum metus</a>
-								<p class="author"><a href="#" class="author">John Maniya</a></p>
-								<p class="views">2,114,200 views</p>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="single-right-grids">
-							<div class="col-md-4 single-right-grid-left">
-								<a href="single.html"><img src="images/r6.jpg" alt="" /></a>
-							</div>
-							<div class="col-md-8 single-right-grid-right">
-								<a href="single.html" class="title"> Nullam interdum metus</a>
-								<p class="author">By <a href="#" class="author">John Maniya</a></p>
-								<p class="views">2,114,200 views</p>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="single-right-grids">
-							<div class="col-md-4 single-right-grid-left">
-								<a href="single.html"><img src="images/r1.jpg" alt="" /></a>
-							</div>
-							<div class="col-md-8 single-right-grid-right">
-								<a href="single.html" class="title"> Nullam interdum metus</a>
-								<p class="author"><a href="#" class="author">John Maniya</a></p>
-								<p class="views">2,114,200 views</p>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="single-right-grids">
-							<div class="col-md-4 single-right-grid-left">
-								<a href="single.html"><img src="images/r2.jpg" alt="" /></a>
-							</div>
-							<div class="col-md-8 single-right-grid-right">
-								<a href="single.html" class="title"> Nullam interdum metus</a>
-								<p class="author"><a href="#" class="author">John Maniya</a></p>
-								<p class="views">2,114,200 views</p>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="single-right-grids">
-							<div class="col-md-4 single-right-grid-left">
-								<a href="single.html"><img src="images/r3.jpg" alt="" /></a>
-							</div>
-							<div class="col-md-8 single-right-grid-right">
-								<a href="single.html" class="title"> Nullam interdum metus</a>
-								<p class="author"><a href="#" class="author">John Maniya</a></p>
-								<p class="views">2,114,200 views</p>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="single-right-grids">
-							<div class="col-md-4 single-right-grid-left">
-								<a href="single.html"><img src="images/r4.jpg" alt="" /></a>
-							</div>
-							<div class="col-md-8 single-right-grid-right">
-								<a href="single.html" class="title"> Nullam interdum metus</a>
-								<p class="author"><a href="#" class="author">John Maniya</a></p>
-								<p class="views">2,114,200 views</p>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="single-right-grids">
-							<div class="col-md-4 single-right-grid-left">
-								<a href="single.html"><img src="images/r5.jpg" alt="" /></a>
-							</div>
-							<div class="col-md-8 single-right-grid-right">
-								<a href="single.html" class="title"> Nullam interdum metus</a>
-								<p class="author"><a href="#" class="author">John Maniya</a></p>
-								<p class="views">2,114,200 views</p>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="single-right-grids">
-							<div class="col-md-4 single-right-grid-left">
-								<a href="single.html"><img src="images/r6.jpg" alt="" /></a>
-							</div>
-							<div class="col-md-8 single-right-grid-right">
-								<a href="single.html" class="title"> Nullam interdum metus</a>
-								<p class="author"><a href="#" class="author">John Maniya</a></p>
-								<p class="views">2,114,200 views</p>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
 			</div>
 			<!-- footer -->
 			<div class="footer">
@@ -658,21 +501,21 @@ if(typeof _bsa !== 'undefined' && _bsa) {
 					<div class="footer-top">
 						<div class="footer-top-nav">
 							<ul>
-								<li><a href="about.html">About</a></li>
-								<li><a href="press.html">Press</a></li>
-								<li><a href="copyright.html">Copyright</a></li>
-								<li><a href="creators.html">Creators</a></li>
+								<li><a href="about.php">About</a></li>
+								<li><a href="press.php">Press</a></li>
+								<li><a href="copyright.php">Copyright</a></li>
+								<li><a href="creators.php">Creators</a></li>
 								<li><a href="#">Advertise</a></li>
-								<li><a href="developers.html">Developers</a></li>
+								<li><a href="developers.php">Developers</a></li>
 							</ul>
 						</div>
 						<div class="footer-bottom-nav">
 							<ul>
-								<li><a href="terms.html">Terms</a></li>
-								<li><a href="privacy.html">Privacy</a></li>
+								<li><a href="terms.php">Terms</a></li>
+								<li><a href="privacy.php">Privacy</a></li>
 								<li><a href="#small-dialog4" class="play-icon popup-with-zoom-anim">Send feedback</a></li>
-								<li><a href="privacy.html">Policy & Safety </a></li>
-								<li><a href="try.html">Try something new!</a></li>
+								<li><a href="privacy.php">Policy & Safety </a></li>
+								<li><a href="try.php">Try something new!</a></li>
 							</ul>
 						</div>
 					</div>
@@ -993,7 +836,7 @@ if(typeof _bsa !== 'undefined' && _bsa) {
 									<option value="">Safety On</option>
 								</select>
 							</li>
-							<li><a href="history.html" class="f-history">History</a></li>
+							<li><a href="history.php" class="f-history">History</a></li>
 							<li><a href="#small-dialog5" class="play-icon popup-with-zoom-anim f-history f-help">Help</a></li>
 						</ul>
 					</div>
@@ -1015,6 +858,4 @@ if(typeof _bsa !== 'undefined' && _bsa) {
     <script src="js/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
   </body>
-
-<!-- Mirrored from demo.w3layouts.com/demos_new/template_demo/02-05-2020/my_play-demo_Free/236948122/web/single.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 Jun 2020 09:29:02 GMT -->
 </html>

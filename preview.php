@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 
-<!-- Mirrored from demo.w3layouts.com/demos_new/template_demo/02-05-2020/my_play-demo_Free/236948122/web/single.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 Jun 2020 09:29:01 GMT -->
+<!-- Mirrored from demo.w3layouts.com/demos_new/template_demo/02-05-2020/my_play-demo_Free/236948122/web/single.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 Jun 2020 09:29:01 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
 <title>My Play a Entertainment Category Flat Bootstrap Responsive Website Template | single :: w3layouts</title>
@@ -90,7 +90,7 @@ if(typeof _bsa !== 'undefined' && _bsa) {
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html"><h1><img src="images/logo.png" alt="" /></h1></a>
+          <a class="navbar-brand" href="index.php"><h1><img src="images/logo.png" alt="" /></h1></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
 			<div class="top-search">
@@ -167,7 +167,7 @@ if(typeof _bsa !== 'undefined' && _bsa) {
 											</div>
 										</div>
 										<div class="signup">
-											<form action="https://demo.w3layouts.com/demos_new/template_demo/02-05-2020/my_play-demo_Free/236948122/web/upload.html">
+											<form action="https://demo.w3layouts.com/demos_new/template_demo/02-05-2020/my_play-demo_Free/236948122/web/upload.php">
 												<input type="text" class="email" placeholder="Email" required="required" pattern="([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?" title="Enter a valid email"/>
 												<input type="password" placeholder="Password" required="required" pattern=".{6,}" title="Minimum 6 characters required" autocomplete="off" />
 												<input type="submit"  value="Sign In"/>
@@ -286,14 +286,14 @@ if(typeof _bsa !== 'undefined' && _bsa) {
 			</div>
 				<div class="drop-navigation drop-navigation">
 				  <ul class="nav nav-sidebar">
-					<li><a href="index.html" class="home-icon"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
-					<li><a href="shows.html" class="user-icon"><span class="glyphicon glyphicon-home glyphicon-blackboard" aria-hidden="true"></span>TV Shows</a></li>
-					<li><a href="history.html" class="sub-icon"><span class="glyphicon glyphicon-home glyphicon-hourglass" aria-hidden="true"></span>History</a></li>
+					<li><a href="index.php" class="home-icon"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
+					<li><a href="shows.php" class="user-icon"><span class="glyphicon glyphicon-home glyphicon-blackboard" aria-hidden="true"></span>TV Shows</a></li>
+					<li><a href="history.php" class="sub-icon"><span class="glyphicon glyphicon-home glyphicon-hourglass" aria-hidden="true"></span>History</a></li>
 					<li><a href="#" class="menu1"><span class="glyphicon glyphicon-film" aria-hidden="true"></span>Movies<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a></li>
 						<ul class="cl-effect-2">
-							<li><a href="movies.html">English</a></li>                                             
-							<li><a href="movies.html">Chinese</a></li>
-							<li><a href="movies.html">Hindi</a></li> 
+							<li><a href="movies.php">English</a></li>                                             
+							<li><a href="movies.php">Chinese</a></li>
+							<li><a href="movies.php">Hindi</a></li> 
 						</ul>
 						<!-- script-for-menu -->
 						<script>
@@ -305,10 +305,10 @@ if(typeof _bsa !== 'undefined' && _bsa) {
 						</script>
 					<li><a href="#" class="menu"><span class="glyphicon glyphicon-film glyphicon-king" aria-hidden="true"></span>Sports<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a></li>
 						<ul class="cl-effect-1">
-							<li><a href="sports.html">Football</a></li>                                             
-							<li><a href="sports.html">Cricket</a></li>
-							<li><a href="sports.html">Tennis</a></li> 
-							<li><a href="sports.html">Shattil</a></li>  
+							<li><a href="sports.php">Football</a></li>                                             
+							<li><a href="sports.php">Cricket</a></li>
+							<li><a href="sports.php">Tennis</a></li> 
+							<li><a href="sports.php">Shattil</a></li>  
 						</ul>
 						<!-- script-for-menu -->
 						<script>
@@ -318,8 +318,8 @@ if(typeof _bsa !== 'undefined' && _bsa) {
 							});
 							});
 						</script>
-					<li><a href="movies.html" class="song-icon"><span class="glyphicon glyphicon-music" aria-hidden="true"></span>Songs</a></li>
-					<li><a href="news.html" class="news-icon"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>News</a></li>
+					<li><a href="movies.php" class="song-icon"><span class="glyphicon glyphicon-music" aria-hidden="true"></span>Songs</a></li>
+					<li><a href="news.php" class="news-icon"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>News</a></li>
 				  </ul>
 				  <!-- script-for-menu -->
 						<script>
@@ -357,7 +357,7 @@ if(typeof _bsa !== 'undefined' && _bsa) {
 					</div>
 					<div class="clearfix"> </div>
 					<div class="published">
-						<script src="jquery.min.html"></script>
+						<script src="jquery.min.php"></script>
 							<script>
 								$(document).ready(function () {
 									size_li = $("#myList li").size();
@@ -387,7 +387,7 @@ if(typeof _bsa !== 'undefined' && _bsa) {
 												<p>Category</p>
 											</div>
 											<div class="load-grid">
-												<a href="movies.html">Entertainment</a>
+												<a href="movies.php">Entertainment</a>
 											</div>
 											<div class="clearfix"> </div>
 										</div>
@@ -518,10 +518,10 @@ if(typeof _bsa !== 'undefined' && _bsa) {
 					<div class="single-grid-right">
 						<div class="single-right-grids">
 							<div class="col-md-4 single-right-grid-left">
-								<a href="single.html"><img src="images/r1.jpg" alt="" /></a>
+								<a href="single.php"><img src="images/r1.jpg" alt="" /></a>
 							</div>
 							<div class="col-md-8 single-right-grid-right">
-								<a href="single.html" class="title"> Nullam interdum metus</a>
+								<a href="single.php" class="title"> Nullam interdum metus</a>
 								<p class="author"><a href="#" class="author">John Maniya</a></p>
 								<p class="views">2,114,200 views</p>
 							</div>
@@ -529,10 +529,10 @@ if(typeof _bsa !== 'undefined' && _bsa) {
 						</div>
 						<div class="single-right-grids">
 							<div class="col-md-4 single-right-grid-left">
-								<a href="single.html"><img src="images/r2.jpg" alt="" /></a>
+								<a href="single.php"><img src="images/r2.jpg" alt="" /></a>
 							</div>
 							<div class="col-md-8 single-right-grid-right">
-								<a href="single.html" class="title"> Nullam interdum metus</a>
+								<a href="single.php" class="title"> Nullam interdum metus</a>
 								<p class="author"><a href="#" class="author">John Maniya</a></p>
 								<p class="views">2,114,200 views </p>
 							</div>
@@ -540,10 +540,10 @@ if(typeof _bsa !== 'undefined' && _bsa) {
 						</div>
 						<div class="single-right-grids">
 							<div class="col-md-4 single-right-grid-left">
-								<a href="single.html"><img src="images/r3.jpg" alt="" /></a>
+								<a href="single.php"><img src="images/r3.jpg" alt="" /></a>
 							</div>
 							<div class="col-md-8 single-right-grid-right">
-								<a href="single.html" class="title"> Nullam interdum metus</a>
+								<a href="single.php" class="title"> Nullam interdum metus</a>
 								<p class="author"><a href="#" class="author">John Maniya</a></p>
 								<p class="views">2,114,200 views</p>
 							</div>
@@ -551,10 +551,10 @@ if(typeof _bsa !== 'undefined' && _bsa) {
 						</div>
 						<div class="single-right-grids">
 							<div class="col-md-4 single-right-grid-left">
-								<a href="single.html"><img src="images/r4.jpg" alt="" /></a>
+								<a href="single.php"><img src="images/r4.jpg" alt="" /></a>
 							</div>
 							<div class="col-md-8 single-right-grid-right">
-								<a href="single.html" class="title"> Nullam interdum metus</a>
+								<a href="single.php" class="title"> Nullam interdum metus</a>
 								<p class="author"><a href="#" class="author">John Maniya</a></p>
 								<p class="views">2,114,200 views</p>
 							</div>
@@ -562,10 +562,10 @@ if(typeof _bsa !== 'undefined' && _bsa) {
 						</div>
 						<div class="single-right-grids">
 							<div class="col-md-4 single-right-grid-left">
-								<a href="single.html"><img src="images/r5.jpg" alt="" /></a>
+								<a href="single.php"><img src="images/r5.jpg" alt="" /></a>
 							</div>
 							<div class="col-md-8 single-right-grid-right">
-								<a href="single.html" class="title"> Nullam interdum metus</a>
+								<a href="single.php" class="title"> Nullam interdum metus</a>
 								<p class="author"><a href="#" class="author">John Maniya</a></p>
 								<p class="views">2,114,200 views</p>
 							</div>
@@ -573,10 +573,10 @@ if(typeof _bsa !== 'undefined' && _bsa) {
 						</div>
 						<div class="single-right-grids">
 							<div class="col-md-4 single-right-grid-left">
-								<a href="single.html"><img src="images/r6.jpg" alt="" /></a>
+								<a href="single.php"><img src="images/r6.jpg" alt="" /></a>
 							</div>
 							<div class="col-md-8 single-right-grid-right">
-								<a href="single.html" class="title"> Nullam interdum metus</a>
+								<a href="single.php" class="title"> Nullam interdum metus</a>
 								<p class="author">By <a href="#" class="author">John Maniya</a></p>
 								<p class="views">2,114,200 views</p>
 							</div>
@@ -584,10 +584,10 @@ if(typeof _bsa !== 'undefined' && _bsa) {
 						</div>
 						<div class="single-right-grids">
 							<div class="col-md-4 single-right-grid-left">
-								<a href="single.html"><img src="images/r1.jpg" alt="" /></a>
+								<a href="single.php"><img src="images/r1.jpg" alt="" /></a>
 							</div>
 							<div class="col-md-8 single-right-grid-right">
-								<a href="single.html" class="title"> Nullam interdum metus</a>
+								<a href="single.php" class="title"> Nullam interdum metus</a>
 								<p class="author"><a href="#" class="author">John Maniya</a></p>
 								<p class="views">2,114,200 views</p>
 							</div>
@@ -595,10 +595,10 @@ if(typeof _bsa !== 'undefined' && _bsa) {
 						</div>
 						<div class="single-right-grids">
 							<div class="col-md-4 single-right-grid-left">
-								<a href="single.html"><img src="images/r2.jpg" alt="" /></a>
+								<a href="single.php"><img src="images/r2.jpg" alt="" /></a>
 							</div>
 							<div class="col-md-8 single-right-grid-right">
-								<a href="single.html" class="title"> Nullam interdum metus</a>
+								<a href="single.php" class="title"> Nullam interdum metus</a>
 								<p class="author"><a href="#" class="author">John Maniya</a></p>
 								<p class="views">2,114,200 views</p>
 							</div>
@@ -606,10 +606,10 @@ if(typeof _bsa !== 'undefined' && _bsa) {
 						</div>
 						<div class="single-right-grids">
 							<div class="col-md-4 single-right-grid-left">
-								<a href="single.html"><img src="images/r3.jpg" alt="" /></a>
+								<a href="single.php"><img src="images/r3.jpg" alt="" /></a>
 							</div>
 							<div class="col-md-8 single-right-grid-right">
-								<a href="single.html" class="title"> Nullam interdum metus</a>
+								<a href="single.php" class="title"> Nullam interdum metus</a>
 								<p class="author"><a href="#" class="author">John Maniya</a></p>
 								<p class="views">2,114,200 views</p>
 							</div>
@@ -617,10 +617,10 @@ if(typeof _bsa !== 'undefined' && _bsa) {
 						</div>
 						<div class="single-right-grids">
 							<div class="col-md-4 single-right-grid-left">
-								<a href="single.html"><img src="images/r4.jpg" alt="" /></a>
+								<a href="single.php"><img src="images/r4.jpg" alt="" /></a>
 							</div>
 							<div class="col-md-8 single-right-grid-right">
-								<a href="single.html" class="title"> Nullam interdum metus</a>
+								<a href="single.php" class="title"> Nullam interdum metus</a>
 								<p class="author"><a href="#" class="author">John Maniya</a></p>
 								<p class="views">2,114,200 views</p>
 							</div>
@@ -628,10 +628,10 @@ if(typeof _bsa !== 'undefined' && _bsa) {
 						</div>
 						<div class="single-right-grids">
 							<div class="col-md-4 single-right-grid-left">
-								<a href="single.html"><img src="images/r5.jpg" alt="" /></a>
+								<a href="single.php"><img src="images/r5.jpg" alt="" /></a>
 							</div>
 							<div class="col-md-8 single-right-grid-right">
-								<a href="single.html" class="title"> Nullam interdum metus</a>
+								<a href="single.php" class="title"> Nullam interdum metus</a>
 								<p class="author"><a href="#" class="author">John Maniya</a></p>
 								<p class="views">2,114,200 views</p>
 							</div>
@@ -639,10 +639,10 @@ if(typeof _bsa !== 'undefined' && _bsa) {
 						</div>
 						<div class="single-right-grids">
 							<div class="col-md-4 single-right-grid-left">
-								<a href="single.html"><img src="images/r6.jpg" alt="" /></a>
+								<a href="single.php"><img src="images/r6.jpg" alt="" /></a>
 							</div>
 							<div class="col-md-8 single-right-grid-right">
-								<a href="single.html" class="title"> Nullam interdum metus</a>
+								<a href="single.php" class="title"> Nullam interdum metus</a>
 								<p class="author"><a href="#" class="author">John Maniya</a></p>
 								<p class="views">2,114,200 views</p>
 							</div>
@@ -658,21 +658,21 @@ if(typeof _bsa !== 'undefined' && _bsa) {
 					<div class="footer-top">
 						<div class="footer-top-nav">
 							<ul>
-								<li><a href="about.html">About</a></li>
-								<li><a href="press.html">Press</a></li>
-								<li><a href="copyright.html">Copyright</a></li>
-								<li><a href="creators.html">Creators</a></li>
+								<li><a href="about.php">About</a></li>
+								<li><a href="press.php">Press</a></li>
+								<li><a href="copyright.php">Copyright</a></li>
+								<li><a href="creators.php">Creators</a></li>
 								<li><a href="#">Advertise</a></li>
-								<li><a href="developers.html">Developers</a></li>
+								<li><a href="developers.php">Developers</a></li>
 							</ul>
 						</div>
 						<div class="footer-bottom-nav">
 							<ul>
-								<li><a href="terms.html">Terms</a></li>
-								<li><a href="privacy.html">Privacy</a></li>
+								<li><a href="terms.php">Terms</a></li>
+								<li><a href="privacy.php">Privacy</a></li>
 								<li><a href="#small-dialog4" class="play-icon popup-with-zoom-anim">Send feedback</a></li>
-								<li><a href="privacy.html">Policy & Safety </a></li>
-								<li><a href="try.html">Try something new!</a></li>
+								<li><a href="privacy.php">Policy & Safety </a></li>
+								<li><a href="try.php">Try something new!</a></li>
 							</ul>
 						</div>
 					</div>
@@ -993,7 +993,7 @@ if(typeof _bsa !== 'undefined' && _bsa) {
 									<option value="">Safety On</option>
 								</select>
 							</li>
-							<li><a href="history.html" class="f-history">History</a></li>
+							<li><a href="history.php" class="f-history">History</a></li>
 							<li><a href="#small-dialog5" class="play-icon popup-with-zoom-anim f-history f-help">Help</a></li>
 						</ul>
 					</div>
@@ -1016,5 +1016,5 @@ if(typeof _bsa !== 'undefined' && _bsa) {
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
   </body>
 
-<!-- Mirrored from demo.w3layouts.com/demos_new/template_demo/02-05-2020/my_play-demo_Free/236948122/web/single.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 Jun 2020 09:29:02 GMT -->
+<!-- Mirrored from demo.w3layouts.com/demos_new/template_demo/02-05-2020/my_play-demo_Free/236948122/web/single.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 Jun 2020 09:29:02 GMT -->
 </html>
